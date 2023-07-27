@@ -1,0 +1,205 @@
+    @charset "UTF-8";
+
+            @font-face {
+            font-family: 'flp';
+            src: url('fontes/idroid.otf') format('opentype');
+            font-weight: normal;
+            font-style: normal;
+        }
+
+        @font-face {
+            font-family:'oswald' ;
+            src: url('fontes/Oswald-Regular.ttf') format('truetype');
+            font-weight: normal;
+            font-style: normal;
+        
+        }
+
+        @import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+
+        h1#tituloprincipal {
+            font-family: 'oswald';
+            font-size: 1.8em;
+            font-weight: bold;
+            text-align: center;
+            margin: 0px;
+            color: white;
+            text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.342);  
+        }
+        
+        
+        main {
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 0.9em;
+             background-color: white;
+             box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.342);
+             margin: -28px 150px 0px 150px;
+
+             border: 50px;
+             padding: 0px 24px 20px 24px;
+             border-radius: 0px 0px 5px 5px;    
+        }
+
+        body {
+            outline: 0px;
+            margin: 0px;
+            padding: 0px;
+            border: 0px;
+            background-color: #84e1ad;
+        }
+      
+        header {
+            background-image: linear-gradient(#3bd47f, #1a5c38);
+            
+            
+            
+        }
+
+        p {
+            text-indent: 30px;
+        }
+
+       
+       
+
+        h2.subtitulo {
+            background-image: linear-gradient(to right, lightgreen, white);
+            font-family: 'flp';
+            color: #21603e;
+            text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.342);
+            font-weight: 1em;
+
+        }
+
+        h2.subtituloprincipal {
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 1.0em;
+            font-weight: lighter;
+            font-style: normal;
+            text-align: center;
+            width: 383px;
+            margin: 45px auto;
+            text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.342);
+            color: white;
+            
+
+        }
+
+       nav {
+            text-indent: 10px;
+            padding: 4px;
+            background-color: #1a5b37;   
+            box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.342);
+        }   
+        
+        nav > a {
+            text-decoration: none;
+            color: rgb(255, 255, 255);
+            font-weight: bold;
+            margin-right: 10px;
+        }
+
+        nav > a:hover {
+            background-color: greenyellow;
+        }
+
+        h1.tituloalternativo {
+           font-family: 'flp';
+           padding-top: 16px;
+            padding-right: 16px;
+            padding-bottom: 0px;
+            color: #21603e;
+            text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.342);
+            font-size: 2em;
+        }
+        .especial::after {
+            content: '🔗';
+
+        }
+        .especial2::before {
+            content: '🗸 ';
+        
+        }
+        .especial {
+            text-decoration: none;
+        }
+
+        .imagens {
+            margin: auto;
+            text-align: center;
+            
+        }
+        .sublinhado {
+            color: green;
+            text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.342);
+            font-weight: bold;
+        }
+        .centralizadas {
+            margin: auto;
+        }
+        .videos{
+            margin-left: -24px;
+            margin-right: -24px;
+            padding-top: 36px;
+              padding-bottom: 36px;
+            text-align: center;
+            background-color: #1a5c38;
+        }
+
+        .extra {
+            background-color: #c5ebd6;
+            border-top-left-radius: 0px;
+            border-top-right-radius: 0px;
+            border-bottom-right-radius: 5px;
+            border-bottom-left-radius: 5px;
+            box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.342);
+            padding-bottom: 10px;
+        }
+
+        .ultimotitulo {
+            background-color: #2fa866;
+            color: white;
+            border-top-left-radius: 5px;
+            border-top-right-radius: 5px;
+            border-bottom-right-radius: 0px;
+            border-bottom-left-radius: 0px;
+            text-indent: 5px;
+            padding-top: 4px;
+            padding-bottom: 4px;
+        }
+      
+      .rodape {
+        background-color: #1a5c38;
+        color: white;
+        text-align: center;
+        padding-bottom: 2px;
+        margin-top: 38px;
+      }
+
+
+      .teste {
+                display: inline-block;
+                text-align: justify;
+                margin: auto;
+                text-indent: 30px;
+
+            
+      }
+
+      .destaque {
+        color: #6b957d;
+        font-weight: bold;
+        text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.342);
+      }
+
+     a.link {
+            text-decoration: none;
+            color: antiquewhite;
+            text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.342);
+      }
+
+
+      .lista {
+        text-indent: 60px;
+      }
+    
