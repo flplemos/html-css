@@ -3,8 +3,8 @@
 
  Bem-vindo ao meu repositório remoto!<br>
 
- Confira alguns dos meus projetos: <br>
- 
+ <br> Confira alguns dos meus projetos: <br>
+ <br>
  <a href= "https://flplemos.github.io/html-css/desafios/d010b/"> 
  Executar site criado para o Curso em Video do professor Guanabara. </a>  <br>
 
