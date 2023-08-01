@@ -9,4 +9,4 @@
  Executar site "Projeto Android" criado para o Curso em Video. </a> <br>
 
  <a href= "https://flplemos.github.io/html-css/desafios/d012/">
- Executar Site "Cordel Moderno" criado para o Curso em Video.
+ Executar site "Cordel Moderno" criado para o Curso em Video.
